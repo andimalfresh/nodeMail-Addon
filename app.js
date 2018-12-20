@@ -5,7 +5,7 @@ const bodyParser = require("body-parser")
 const exphbs = require("express-handlebars")
 const nodemailer = require("nodemailer")
 const path = require("path")
-const port = 3666 || process.env.DATA
+const port = 3666 || process.env.PORT
 
 //View engine setup
 
