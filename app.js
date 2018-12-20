@@ -74,4 +74,4 @@ app.post("/send", (req,res) => {
 })
 
 
-app.listen(3666, () => console.log(`Hard hitting seed spitting party on port:${port}`))
+app.listen(port, () => console.log(`Hard hitting seed spitting party on port:${port}`))
