@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 body{
   background:White;
   color:##ff0800;
@@ -83,7 +87,7 @@ ul{
 }
 
 .contact form button:hover,.contact form button:focus{
-  background:#92bde7;
+  background:red;
   color:#fff;
   outline:0;
   transition: background-color 2s ease-out;
